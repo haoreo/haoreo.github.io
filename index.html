@@ -1,0 +1,273 @@
+<!DOCTYPE html><html lang="zh_CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>yuhosir</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这个博主懒得很，不爱写">
+<meta property="og:type" content="website">
+<meta property="og:title" content="yuhosir">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="yuhosir">
+<meta property="og:description" content="这个博主懒得很，不爱写">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/favicon.png">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="yuhosir, bolg, 博客, 日志, 个人博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/favicon.png"><link rel="shortcut icon" href="/img/logo.jpg"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'yuhosir',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-04 04:31:20'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/favicon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/image/"><i class="fa-fw fas fa-image"></i><span> image</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="yuhosir"><span class="site-name">yuhosir</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/image/"><i class="fa-fw fas fa-image"></i><span> image</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">yuhosir</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2024/02/04/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-02-03T16:32:59.783Z" title="Created 2024-02-04 00:32:59">2024-02-04</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/01/19/2024-1-19-%E5%AA%92%E4%BD%93%E5%B0%9D%E8%AF%95/" title="媒体尝试">媒体尝试</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-01-18T16:00:00.000Z" title="Created 2024-01-19 00:00:00">2024-01-19</time></span></div><div class="content">这名作者很懒，懒得烧五花蛇吃。
+而很容易掌握。![单词结构图](&#x2F;img-post&#x2F;2018-12-30-overview.png)
+上下文的情况下也完全不难。
+视频1 
+ 
+
+视频2 
+   
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/01/17/2024-1-17-%E5%86%8D%E7%9C%8B%E7%9C%8B%E8%BF%99%E4%B8%AA/" title="再看看这个">再看看这个</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-01-16T16:00:00.000Z" title="Created 2024-01-17 00:00:00">2024-01-17</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/">测试文档</a></span></div><div class="content">这名作者很懒，懒得烧五花蛇吃。
+而很容易掌握。![单词结构图](&#x2F;img-post&#x2F;2018-12-30-overview.png)
+上下文的情况下也完全不难。
+音素表音素是语言中最小的语音单位主要来自汉语拼音（音标）：
+|:——-:|:——-:|:——-:|:——-:|:——:|| 序号 | 姓名 | 天 | 金额 ｜ 元 ｜| 1 | 王三 | 12 || 2 | 李四 | 47 || 3 | 张丽 | 68 | 126 || 4 | 王者 | 75 | 158 | 77 |
+特点总结来源于其在词汇方面的巧妙设计：
+
+经济方面，最公认的一音。
+文化方面，核心关键部可掌握。
+国情方面，融合总能不再难。
+
+
+注：发发法德那样也可以。
+（修订于2019-09-22）
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/01/16/2024-1-16-%E5%86%8D%E5%86%99%E4%B8%80%E4%B8%AA%E7%9C%8B%E7%9C%8B/" title="再写一个看看">再写一个看看</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-01-15T16:00:00.000Z" title="Created 2024-01-16 00:00:00">2024-01-16</time></span></div><div class="content">这名作者很懒，懒得烧五花蛇吃。
+首先，三叶语独创“词基-词韵-词尾”的单词结构。其中词基来自英语&#x2F;法语&#x2F;西班牙语为主的西方语言，词韵来自汉语拼音，词尾代表词性词类等功能。因此，无论讲英语&#x2F;法语&#x2F;西班牙语的人，还是讲中文的人，都能从单词中找到相应的提示部分，便于猜词和记词。而这几种语言的人群覆盖范围很广，所以对世界上大多数人来说，三叶语的词汇都很容易掌握。![三叶语单词结构图](&#x2F;img-post&#x2F;2018-12-30-overview.png)例如，“树”叫tru，“火”叫firo，“雾”叫fogu，每个单词都含有词韵——也就是汉语拼音的韵母部分，对中国人来说就很容易记忆了；即使没有完全记住，在有上下文的情况下也很容易猜对词意，所以学起来完全不难。
+除了词汇设计的特色之外，极易读的语音（与拼音很相似）和极易用的语法（核心只需记六个字），让三叶语基本能做到即学即会。
+音素表音素是语言中最小的语音单位。三叶语的音素尽量取中英法三种语言的交集，因此比它们各自的音素都要少很多，且留下的读音都比较容易。例如，去掉了英语中[æ][ɜ][ʌ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/01/10/2024-1-10-%E4%B8%8D%E7%9F%A5%E9%81%93%E5%86%99%E5%95%A5/" title="不知道写啥">不知道写啥</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-01-09T16:00:00.000Z" title="Created 2024-01-10 00:00:00">2024-01-10</time></span></div><div class="content">这名作者很懒，懒得烧蛇吃。
+首先，三叶语独创“词基-词韵-词尾”的单词结构。其中词基来自英语&#x2F;法语&#x2F;西班牙语为主的西方语言，词韵来自汉语拼音，词尾代表词性词类等功能。因此，无论讲英语&#x2F;法语&#x2F;西班牙语的人，还是讲中文的人，都能从单词中找到相应的提示部分，便于猜词和记词。而这几种语言的人群覆盖范围很广，所以对世界上大多数人来说，三叶语的词汇都很容易掌握。![三叶语单词结构图](&#x2F;img-post&#x2F;2018-12-30-overview.png)例如，“树”叫tru，“火”叫firo，“雾”叫fogu，每个单词都含有词韵——也就是汉语拼音的韵母部分，对中国人来说就很容易记忆了；即使没有完全记住，在有上下文的情况下也很容易猜对词意，所以学起来完全不难。
+除了词汇设计的特色之外，极易读的语音（与拼音很相似）和极易用的语法（核心只需记六个字），让三叶语基本能做到即学即会。
+音素表音素是语言中最小的语音单位。三叶语的音素尽量取中英法三种语言的交集，因此比它们各自的音素都要少很多，且留下的读音都比较容易。例如，去掉了英语中[æ][ɜ][ʌ]等 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/12/30/2023-12-30-%E7%A5%9E%E5%A5%87/" title="神奇">神奇</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-29T16:00:00.000Z" title="Created 2023-12-30 00:00:00">2023-12-30</time></span></div><div class="content">三叶草国际语（简称三叶语）是一种人造语言。它完美融合了中西方语言，与著名的世界语（Esperanto）相比，更加注重东方人的语言习惯，因而有希望纳入更多东方人，成为真正的“世界语”。
+首先，三叶语独创“词基-词韵-词尾”的单词结构。其中词基来自英语&#x2F;法语&#x2F;西班牙语为主的西方语言，词韵来自汉语拼音，词尾代表词性词类等功能。因此，无论讲英语&#x2F;法语&#x2F;西班牙语的人，还是讲中文的人，都能从单词中找到相应的提示部分，便于猜词和记词。而这几种语言的人群覆盖范围很广，所以对世界上大多数人来说，三叶语的词汇都很容易掌握。![三叶语单词结构图](&#x2F;img-post&#x2F;2018-12-30-overview.png)例如，“树”叫tru，“火”叫firo，“雾”叫fogu，每个单词都含有词韵——也就是汉语拼音的韵母部分，对中国人来说就很容易记忆了；即使没有完全记住，在有上下文的情况下也很容易猜对词意，所以学起来完全不难。
+除了词汇设计的特色之外，极易读的语音（与拼音很相似）和极易用的语法（核心只需记六个字），让三叶语基本能做到即学即会。
+音素表音素是 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2019/11/12/2019-11-12-renamed/" title="三叶语更名为「星球语」">三叶语更名为「星球语」</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-11-11T16:00:00.000Z" title="Created 2019-11-12 00:00:00">2019-11-12</time></span></div><div class="content">三叶草国际语已更名为「星球语」（Globien），全称「星球国际语」。请前往新网址:
+
+中文版：globien.gitee.io
+英文版：globien.github.io
+
+新名称可以更好地体现其人造国际语的定位。与世界语（Esperanto）相比，其特点是包含东方语言元素，更具全球性。例如：
+
+元音（包括双元音&#x2F;鼻元音）的拼写和发音与汉语拼音更像；
+单词中含有来自拼音的“词韵”部分，可以让中文背景者学习单词更容易；
+动词变位减少到只有一种，而时态体貌简化为“将不已在被动”六个字的固定次序。
+
+了解更多详情请前往新网站的相关介绍：星球语简介。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2019/10/18/2019-10-18-%E5%AD%A6%E4%B9%A0%E4%B8%89%E5%8F%B6%E8%AF%AD%E8%A6%81%E8%8A%B1%E5%A4%9A%E5%B0%91%E6%97%B6%E9%97%B4/" title="学习三叶语要花多少时间？">学习三叶语要花多少时间？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-10-17T16:00:00.000Z" title="Created 2019-10-18 00:00:00">2019-10-18</time></span></div><div class="content">作为人造国际通用语，三叶语的设计目标是：简单易学易用，大多数人可以在很短时间内学会。
+那么三叶语究竟有多简单，学习时间要多少呢？
+三叶语的特点是词汇融合中西方语言，所以简单到单词可以“猜”，加上其语法为极其简单的固定词序规则，以及读音为中西共通且规则标准，所以学习是非常简单的。
+以下我们从快速入门、进阶学习、大师水平三个级别来看学习三叶语需要的时间精力。	
+1、快速入门：半天时间，达到A2&#x2F;B1水平，即基本可用（1）半天学习目标详解				
+1、朗读与听写：即使不熟悉词义，也能基本做到“看到能读，听到能写”
+2、阅读：A1/A2级阅读材料可以基本看懂，B1/B2文章借助词典可以看懂
+3、写作：借助词典可以写出A2/B1级的短文		
+4、听力：听懂A1级内容，A2级内容在语速很慢和反复的情况下可以基本听懂
+5、口语：可以说出自我介绍，打招呼等A1级内容			
+            
+
+（2）半天学习时间分配				
+
+
+
+语言背景
+中文 + 英文
+中文（会拼音）
+英文（B2以上）
+
+
+
+语音
+5
+10
+15
+
+
+掌握基本单词100个
+20
+30
+30
+
+
+基本语法
+20
+30 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2019/09/03/2019-09-03-%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E6%8B%BC%E9%9F%B3%E4%B8%AD%E7%9A%84ui%E5%92%8Ciu%E7%BC%A9%E5%86%99/" title="三叶语是如何处理拼音中的ui和iu的？">三叶语是如何处理拼音中的ui和iu的？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-09-02T16:00:00.000Z" title="Created 2019-09-03 00:00:00">2019-09-03</time></span></div><div class="content">在汉语拼音方案中，ui是uei的简写，iu是iou的简写。
+但在三叶语中，我们取词韵的时候，对上述两个缩写的处理方式有所不同：ui缩写保留，而iu缩写不保留。
+为什么这样做呢？
+首先，按照三叶语的读音规则，ui与uei的读音非常接近，发音结束时的口型和位置很相似，而iu和iou的区别就比较大了。所以从这个意义上来说，保留ui缩写是可以的，这样可以缩短单词长度，但保留iu缩写就不太好了。
+其次，在英语中，也有大量的单词含有ui这样的组合结构，如suit，fruit等，因此保留ui缩写让西人对三叶语更有熟悉感，而iu就没有这样的功效。
+综上，三叶语对于这两种缩写相关的元音组合处理如下：
+
+保留ui缩写，并把wei也改写为ui。
+不保留iu缩写，所有iu还原成iou，并把you也改写成iou。
+
+其实汉语拼音中还有一种简写，即把uen简写成了un，对此我们也保留。所以相应的，wen也需要改写成un。
+注意，改完后的读音方法还是要与三叶语的读音规则一直，即ui念快速的“乌衣”而不是“威”，与汉语拼音有所不同；而iou念快速的“衣欧”则与汉语拼音的iu基本一致。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2018/12/15/2018-12-15-%E4%BA%BA%E9%80%A0%E5%9B%BD%E9%99%85%E8%AF%AD%E8%83%8C%E5%8D%95%E8%AF%8D%E4%BB%8D%E6%98%AF%E6%8C%A5%E4%B8%8D%E5%8E%BB%E7%9A%84%E7%97%9B/" title="人造国际语，背单词仍是挥不去的痛">人造国际语，背单词仍是挥不去的痛</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2018-12-14T16:00:00.000Z" title="Created 2018-12-15 00:00:00">2018-12-15</time></span></div><div class="content">一国际通用语一百多年的发展历史，许多人出于对迄今为止仍然是最成功的人工语言——世界语（Esperanto）的种种不满意，自立门户，自行造语。或改造，或自创，方案繁多。
+造语离不开其铁三角：语音、语法、词汇。（唔，还有造字符……）
+通过不计其数方案的探索，应该说对语音、语法的看法已经大体趋同。
+语音方面，多数原则达成一致。例如，一字一音的原则如果不要求刻板执行的话，大家都是认可的。元音嘛基本上就是aoeiu五元组，辅音嘛大部分跟英语一样，发音嘛就基本按简单清晰、分隔度大、对比度大的原则来，比如倾向于送气不送气对立而不是清浊对立。
+语法方面（包括词法），方向上也基本达成一致。比如简化性、数、位的变化，减少语序的自由性，等等。如果把中文的“了”、“过”等也看成是后缀的话，大家在“分析还是曲折”的问题上争议其实也并不那么大。
+唯有词汇，即取词（或造词）的方法，百花齐放，百家争鸣。很难达成一致。分歧大说明问题大。
+二在电影《Downsizing》中，女主人公——一个住在贫民窟的来自越南的偷渡客——操着“流利”的但语法混乱、常常没有谓语的英语，把男主人公指使得团团转，还赢得了他的爱情。你可以注意到 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description">这个博主懒得很，不爱写</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/2024/02/04/hello-world/" title="Hello World">Hello World</a><time datetime="2024-02-03T16:32:59.783Z" title="Created 2024-02-04 00:32:59">2024-02-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/19/2024-1-19-%E5%AA%92%E4%BD%93%E5%B0%9D%E8%AF%95/" title="媒体尝试">媒体尝试</a><time datetime="2024-01-18T16:00:00.000Z" title="Created 2024-01-19 00:00:00">2024-01-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/17/2024-1-17-%E5%86%8D%E7%9C%8B%E7%9C%8B%E8%BF%99%E4%B8%AA/" title="再看看这个">再看看这个</a><time datetime="2024-01-16T16:00:00.000Z" title="Created 2024-01-17 00:00:00">2024-01-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/16/2024-1-16-%E5%86%8D%E5%86%99%E4%B8%80%E4%B8%AA%E7%9C%8B%E7%9C%8B/" title="再写一个看看">再写一个看看</a><time datetime="2024-01-15T16:00:00.000Z" title="Created 2024-01-16 00:00:00">2024-01-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/10/2024-1-10-%E4%B8%8D%E7%9F%A5%E9%81%93%E5%86%99%E5%95%A5/" title="不知道写啥">不知道写啥</a><time datetime="2024-01-09T16:00:00.000Z" title="Created 2024-01-10 00:00:00">2024-01-10</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"><span class="card-category-list-name">测试文档</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%A4%BA%E4%BE%8B%E6%96%87%E6%A1%A3/"><span class="card-category-list-name">示例文档</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%97%B2%E8%81%8A%E5%92%8B%E8%B0%88/"><span class="card-category-list-name">闲聊咋谈</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E8%AE%BE%E8%AE%A1%E7%82%B9%E6%BB%B4/" style="font-size: 1.3em; color: #99a1ac">设计点滴</a> <a href="/tags/%E6%96%B0%E9%97%BB%E6%95%85%E4%BA%8B/" style="font-size: 1.3em; color: #99a1ac">新闻故事</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/" style="font-size: 1.1em; color: #999">学习资料</a> <a href="/tags/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/" style="font-size: 1.5em; color: #99a9bf">随便写写</a> <a href="/tags/%E9%9A%8F%E7%AC%94%E6%9D%82%E8%B0%88/" style="font-size: 1.3em; color: #99a1ac">随笔杂谈</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">十二月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/11/"><span class="card-archive-list-date">十一月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/10/"><span class="card-archive-list-date">十月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/09/"><span class="card-archive-list-date">九月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2018/12/"><span class="card-archive-list-date">十二月 2018</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-03T20:31:20.810Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

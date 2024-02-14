@@ -24,6 +24,10 @@
             
             <tag> 软件安装 </tag>
             
+            <tag> Mac </tag>
+            
+            <tag> 苹果电脑 </tag>
+            
         </tags>
       
     </entry>
@@ -154,6 +158,35 @@
             <tag> 外星人Alienware </tag>
             
             <tag> 恢复系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac来自身份不明开发者</title>
+      <link href="/2023/09/26/2023-09-26-%E6%9D%A5%E8%87%AA%E8%BA%AB%E4%BB%BD%E4%B8%8D%E6%98%8E%E5%BC%80%E5%8F%91%E8%80%85/"/>
+      <url>/2023/09/26/2023-09-26-%E6%9D%A5%E8%87%AA%E8%BA%AB%E4%BB%BD%E4%B8%8D%E6%98%8E%E5%BC%80%E5%8F%91%E8%80%85/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Mac来自身份不明开发者"><a href="#Mac来自身份不明开发者" class="headerlink" title="Mac来自身份不明开发者"></a>Mac来自身份不明开发者</h2><hr><h3 id="安装软件，无法打开"><a href="#安装软件，无法打开" class="headerlink" title="安装软件，无法打开"></a>安装软件，无法打开</h3><p>在MAC下安装一些软件时提示 <code>&quot;来自身份不明开发者&quot;</code></p><p>其实这是MAC新系统启用了新的安全机制。默认只信任 Mac App Store 下载的软件和拥有开发者 ID 签名的应用程序。 换句话说就是 MAC 系统默认只能安装靠谱渠道（有苹果审核的 Mac App Store）下载的软件或被认可的人开发的软件。</p><p>这当然是为了用户不会稀里糊涂安装流氓软件中招，但没有开发者签名的 “老实软件” 也受影响了，安装就会弹出下图所示警告框：</p><p><code>“打不开 xxx，因为它来自身份不明的开发者”。</code></p><img src="/img/essay/02.png"><h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><p>出现这个问题的解决方法有2种：</p><ul><li><p>最简单的方式：按住Control后，再次点击软件图标，即可。</p></li><li><p>修改系统配置：</p></li></ul><ol><li>系统偏好设置</li><li>安全性与隐私</li></ol><img src="/img/essay/03.png"><ol start="3"><li>修改为任何来源</li></ol><img src="/img/essay/04.png"><h4 id="解决没有任何来源选项"><a href="#解决没有任何来源选项" class="headerlink" title="解决没有任何来源选项"></a>解决没有任何来源选项</h4><p>打开终端，输入以下命令并执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo spctl --master-disable</span><br></pre></td></tr></table></figure><p>看见个password后面还有个钥匙图标后，输入开机解锁密码，回车键确认</p><p>然后再回到安全与隐私里，改为任何来源</p><hr><p><small>网络摘录：siyurong</small></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 各类教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件安装 </tag>
+            
+            <tag> Mac </tag>
+            
+            <tag> 苹果电脑 </tag>
             
         </tags>
       

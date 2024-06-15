@@ -93,43 +93,43 @@
 &lt;hr /&gt;
 &lt;h3 id=&#34;安装homebrew&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装homebrew&#34;&gt;#&lt;/a&gt; 安装 Homebrew&lt;/h3&gt;
 &lt;h4 id=&#34;1在命令行工具输入以下命令之一安装homebrew&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1在命令行工具输入以下命令之一安装homebrew&#34;&gt;#&lt;/a&gt; 1. 在命令行工具输入以下命令之一，安装 Homebrew。&lt;/h4&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight awk&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs awk&#34;&gt;&lt;span class=&#34;hljs-regexp&#34;&gt;/usr/&lt;/span&gt;bin&lt;span class=&#34;hljs-regexp&#34;&gt;/ruby -e &amp;quot;$(curl -fsSL https:/&lt;/span&gt;&lt;span class=&#34;hljs-regexp&#34;&gt;/raw.githubusercontent.com/&lt;/span&gt;Homebrew&lt;span class=&#34;hljs-regexp&#34;&gt;/install/m&lt;/span&gt;aster/install)&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;国外源：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;/bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;/bin/bash -c &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;&lt;span class=&#34;hljs-subst&#34;&gt;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;国内源：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;/bin/zsh -c &amp;quot;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;/bin/zsh -c &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;&lt;span class=&#34;hljs-subst&#34;&gt;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&lt;/span&gt;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;选择源：推荐 1&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;2homebrew-安装-nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2homebrew-安装-nodejs&#34;&gt;#&lt;/a&gt; 2.Homebrew 安装 node.js&lt;/h4&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;brew install node&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight crmsh&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs crmsh&#34;&gt;brew install &lt;span class=&#34;hljs-keyword&#34;&gt;node&lt;/span&gt;&lt;span class=&#34;hljs-title&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;安装后可以使用命令来检查是否安装成功？检查 node&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;node -v&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight crmsh&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs crmsh&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;node&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;-v&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;返回版本结果如：&lt;/p&gt;
 &lt;p&gt;v12.14.1&lt;/p&gt;
 &lt;p&gt;检查 npm 是否安装成功，npm 是 node.js 的包管理工具&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;nmp -v&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight ebnf&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs ebnf&#34;&gt;&lt;span class=&#34;hljs-attribute&#34;&gt;nmp -v&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;返回版本结果如：&lt;/p&gt;
 &lt;p&gt;6.13.4&lt;/p&gt;
 &lt;h4 id=&#34;3homebrew-安装-git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3homebrew-安装-git&#34;&gt;#&lt;/a&gt; 3.Homebrew 安装 git&lt;/h4&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;brew install git&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight mipsasm&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs mipsasm&#34;&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;brew &lt;/span&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;install &lt;/span&gt;git&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;检查 git 是否安装成功&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;git -v&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight ebnf&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs ebnf&#34;&gt;&lt;span class=&#34;hljs-attribute&#34;&gt;git -v&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;返回版本结果如：&lt;br /&gt;
 git version 2.24.3 (Apple Git-128)&lt;/p&gt;
 &lt;h4 id=&#34;4使用-npm-安装-hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4使用-npm-安装-hexo&#34;&gt;#&lt;/a&gt; 4. 使用 npm 安装 Hexo&lt;/h4&gt;
 &lt;p&gt;执行以下命令&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;sudo npm install -g hexo-cli&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight avrasm&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs avrasm&#34;&gt;sudo npm install -g hexo-&lt;span class=&#34;hljs-keyword&#34;&gt;cli&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;创建 blog 文件夹&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;cd ~ &amp;amp;&amp;amp; mkdir blog &amp;amp;&amp;amp; cd blog&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;cd&lt;/span&gt; ~ &amp;amp;&amp;amp; &lt;span class=&#34;hljs-built_in&#34;&gt;mkdir&lt;/span&gt; blog &amp;amp;&amp;amp; &lt;span class=&#34;hljs-built_in&#34;&gt;cd&lt;/span&gt; blog&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在该目录下执行初始化（下载一些 node.js 的依赖文件）&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;hexo init&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs csharp&#34;&gt;hexo &lt;span class=&#34;hljs-keyword&#34;&gt;init&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在该目录下执行预览&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;hexo s&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight ebnf&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs ebnf&#34;&gt;&lt;span class=&#34;hljs-attribute&#34;&gt;hexo s&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
  当看到如下输出就可以预览我们创建的博客了&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;INFO  Validating config INFO  Start processing INFO  Hexo is running at &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2xvY2FsaG9zdDo0MDAw&#34;&gt;http://localhost:4000&lt;/span&gt; . Press Ctrl+C to stop.&lt;/p&gt;
@@ -144,22 +144,20 @@ git version 2.24.3 (Apple Git-128)&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/05/25/NOndf24vLqM1yKt.jpg&#34; alt=&#34;3303eabc7f733e79c01496e0137bc6b26684c43f.jpg&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;6配置关联github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6配置关联github&#34;&gt;#&lt;/a&gt; 6. 配置关联 github&lt;/h4&gt;
 &lt;p&gt;在命令行输入配置用户名和账号的命令（如果已经配置过，该步骤可以忽略）&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;git config --global user.name &amp;quot;jack.github.io&amp;quot;git config --global user.email &amp;quot;jsdk@gmail.com&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight stylus&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs stylus&#34;&gt;git config &lt;span class=&#34;hljs-attr&#34;&gt;--global&lt;/span&gt; user&lt;span class=&#34;hljs-selector-class&#34;&gt;.name&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;jack.github.io&amp;quot;&lt;/span&gt;git config &lt;span class=&#34;hljs-attr&#34;&gt;--global&lt;/span&gt; user&lt;span class=&#34;hljs-selector-class&#34;&gt;.email&lt;/span&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;jsdk@gmail.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;通过终端命令生成 SSH Key&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;ssh-keygen -t rsa -C &amp;quot;email@gmail.com&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight excel&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs excel&#34;&gt;ssh-keygen -&lt;span class=&#34;hljs-built_in&#34;&gt;t&lt;/span&gt; rsa -C &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;email@gmail.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;执行完成后会在～/.ssh/id_rsa.pub 目录下生成 需要使用的 key。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;可以使用命令行输出 key 并复制&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;cat ~/.ssh/id_rsa.pub&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;cat&lt;/span&gt; ~/.ssh/id_rsa.pub&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;也可以找到这个文件打开它并复制&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;$open ~/.ssh Users/youname/.ssh/id_rsa.pub&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight awk&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs awk&#34;&gt;&lt;span class=&#34;hljs-variable&#34;&gt;$open&lt;/span&gt; ~&lt;span class=&#34;hljs-regexp&#34;&gt;/.ssh Users/y&lt;/span&gt;ouname&lt;span class=&#34;hljs-regexp&#34;&gt;/.ssh/i&lt;/span&gt;d_rsa.pub&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;无法找到key文件，则执行依次以下命令&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;NO.1 ssh-keygen -t rsa
-NO.2 cat ~/.ssh/id_rsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys
-NO.3 chmod og-wx ~/.ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;NO.1 ssh-keygen -t rsa&lt;br&gt;NO.2 &lt;span class=&#34;hljs-built_in&#34;&gt;cat&lt;/span&gt; ~/.ssh/id_rsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys&lt;br&gt;NO.3 &lt;span class=&#34;hljs-built_in&#34;&gt;chmod&lt;/span&gt; og-wx ~/.ssh/authorized_keys&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
  再打开文件夹找到文件并复制里面的内容，然后登录你的 github 账号 找到 setting&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/05/25/6kenjATfcURGy73.jpg&#34; alt=&#34;516f8243dca8f8b173ef.jpg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;先点击 SSH and GPG keys 然后再点击 New SSH key 进入到配置 SSH Key 的页面&lt;/p&gt;
@@ -168,11 +166,11 @@ NO.3 chmod og-wx ~/.ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
 ￼&lt;br /&gt;
 &lt;img data-src=&#34;https://s2.loli.net/2024/05/25/Kb5AscG1g86jMvO.jpg&#34; alt=&#34;aad11848803bf214b62be0239adc9a37c7cf1997.jpg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;点击 Add SSH Key ，然后命令行输入&lt;br /&gt;
- &lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;cd blog&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
+ &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;&lt;span class=&#34;hljs-built_in&#34;&gt;cd&lt;/span&gt; blog&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
  执行命令&lt;br /&gt;
- &lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;sudo npm install hexo-deployer-git --save&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
+ &lt;figure class=&#34;highlight ada&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs ada&#34;&gt;sudo npm install hexo-deployer-git &lt;span class=&#34;hljs-comment&#34;&gt;--save&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
  然后开始修改配置文件&lt;br /&gt;
- &lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;~/Desktop/blog/_config.yml&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
+ &lt;figure class=&#34;highlight arcade&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs arcade&#34;&gt;~&lt;span class=&#34;hljs-regexp&#34;&gt;/Desktop/&lt;/span&gt;blog/_config.yml&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
  修改 deploy 部分为&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;deploy: type: git repo: &lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOmdpdEBnaXRodWIuY29t&#34;&gt;git@github.com&lt;/span&gt;:Johnson8888/Johnson8888.github.io.git branch: master&lt;/p&gt;
@@ -250,18 +248,12 @@ NO.3 chmod og-wx ~/.ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;br /&gt;
             <pubDate>Tue, 19 Jan 2021 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;pc优化及开机密码修改&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pc优化及开机密码修改&#34;&gt;#&lt;/a&gt; PC 优化及开机密码修改&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;p&gt;阿睡觉啊啊大家&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;
-SHAPE shape1,*p1;
-CIRCLE circle1,*q1;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h3 id=&#34;这是显示异常的代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这是显示异常的代码块&#34;&gt;#&lt;/a&gt; 这是显示异常的代码块&lt;/h3&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;hello 01&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h2 id=&#34;点击开始的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#点击开始的&#34;&gt;#&lt;/a&gt; 点击开始的&lt;/h2&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight javascript&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 示例 JavaScript 代码  &lt;/span&gt;
-&lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;Hello, World!&amp;#x27;&lt;/span&gt;);
-&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;点击开始的&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs javascript&#34;&gt;&lt;br&gt;hello &lt;span class=&#34;hljs-number&#34;&gt;02&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;不加结束反引号代码块显示反而正常&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不加结束反引号代码块显示反而正常&#34;&gt;#&lt;/a&gt; 不加结束反引号，代码块显示反而正常&lt;/h3&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs html&#34;&gt;&lt;br&gt;hello 03&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -284,7 +276,7 @@ CIRCLE circle1,*q1;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 3. 输入 “CMD” 并点击确定。&lt;/p&gt;
 &lt;h4 id=&#34;步骤二输入代码并运行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#步骤二输入代码并运行&#34;&gt;#&lt;/a&gt; 步骤二：输入代码并运行&lt;/h4&gt;
 &lt;p&gt;1. 在打开的命令提示符窗口中，直接输入以下代码：&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;reg add &amp;quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings&amp;quot; /v FlightSettingsMaxPauseDays /t reg_dword /d 36525 /f&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight dockerfile&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs dockerfile&#34;&gt;reg &lt;span class=&#34;hljs-keyword&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;language-bash&#34;&gt; &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings&amp;quot;&lt;/span&gt; /v FlightSettingsMaxPauseDays /t reg_dword /d 36525 /f&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;代码末尾的数字“36525”代表天数，即100年。如果你想恢复自动更新，可以将这个数字改为“1”&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;2. 按下回车键执行代码。&lt;/p&gt;
 &lt;p&gt;3. 当窗口中出现 “操作成功完成” 字样时，表示设置已成功。&lt;/p&gt;
@@ -476,8 +468,8 @@ CIRCLE circle1,*q1;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
             <title>苏联对德宣战</title>
             <link>http://example.com/2019/10/18/2019-10-18-%E8%8B%8F%E8%81%94%E5%AF%B9%E5%BE%B7%E5%AE%A3%E6%88%98/</link>
             <category term="政治军事" scheme="http://example.com/categories/%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B/" />
-            <category term="演讲" scheme="http://example.com/tags/%E6%BC%94%E8%AE%B2/" />
             <category term="宣战" scheme="http://example.com/tags/%E5%AE%A3%E6%88%98/" />
+            <category term="演讲" scheme="http://example.com/tags/%E6%BC%94%E8%AE%B2/" />
             <category term="斯大林" scheme="http://example.com/tags/%E6%96%AF%E5%A4%A7%E6%9E%97/" />
             <pubDate>Fri, 18 Oct 2019 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;苏联对德宣战&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#苏联对德宣战&#34;&gt;#&lt;/a&gt; 苏联对德宣战&lt;/h2&gt;
@@ -509,8 +501,8 @@ CIRCLE circle1,*q1;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
             <title>土耳其对美宣战</title>
             <link>http://example.com/2019/09/03/2019-09-03-%E5%9C%9F%E8%80%B3%E5%85%B6%E5%AF%B9%E7%BE%8E%E5%AE%A3%E6%88%98/</link>
             <category term="政治军事" scheme="http://example.com/categories/%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B/" />
-            <category term="演讲" scheme="http://example.com/tags/%E6%BC%94%E8%AE%B2/" />
             <category term="宣战" scheme="http://example.com/tags/%E5%AE%A3%E6%88%98/" />
+            <category term="演讲" scheme="http://example.com/tags/%E6%BC%94%E8%AE%B2/" />
             <pubDate>Tue, 03 Sep 2019 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;土耳其对美宣战&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#土耳其对美宣战&#34;&gt;#&lt;/a&gt; 土耳其对美宣战&lt;/h1&gt;
 &lt;hr /&gt;
@@ -562,8 +554,8 @@ CIRCLE circle1,*q1;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
             <title>列宁的一段演说</title>
             <link>http://example.com/2019/03/21/2019-03-21-%E5%88%97%E5%AE%81%E7%9A%84%E4%B8%80%E6%AE%B5%E6%BC%94%E8%AF%B4/</link>
             <category term="政治军事" scheme="http://example.com/categories/%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B/" />
-            <category term="列宁" scheme="http://example.com/tags/%E5%88%97%E5%AE%81/" />
             <category term="演讲" scheme="http://example.com/tags/%E6%BC%94%E8%AE%B2/" />
+            <category term="列宁" scheme="http://example.com/tags/%E5%88%97%E5%AE%81/" />
             <pubDate>Thu, 21 Mar 2019 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;列宁的一段演说&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#列宁的一段演说&#34;&gt;#&lt;/a&gt; 列宁的一段演说&lt;/h2&gt;
 &lt;hr /&gt;
@@ -674,7 +666,7 @@ CIRCLE circle1,*q1;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;右下标：H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O  CO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&lt;/p&gt;
 &lt;p&gt;版权 © 和 &amp;amp; 商标申请中™ 英镑 £ 人民币 ¥ 欧元€ 商标 ® 正负 ± 圆点・平方米 M² 四分之三 ¾ 摄氏度 18ºC&lt;/p&gt;
 &lt;h3 id=&#34;代码框&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码框&#34;&gt;#&lt;/a&gt; 代码框&lt;/h3&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code class=&#34;highlight plaintext&#34;&gt;代码框内容可复制NSString *str = @&amp;quot;Hello Markdown&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight axapta&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs axapta&#34;&gt;代码框内容可复制NSString *&lt;span class=&#34;hljs-built_in&#34;&gt;str&lt;/span&gt; = @&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;Hello Markdown&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;代码区块
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;引用样式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#引用样式&#34;&gt;#&lt;/a&gt; 引用样式&lt;/h3&gt;

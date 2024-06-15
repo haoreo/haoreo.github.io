@@ -20,8 +20,8 @@
             <title>Mac终端Homebrew安装相关依赖</title>
             <link>http://example.com/2024/06/05/2024-06-05-Mac%E7%BB%88%E7%AB%AFHomebrew%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E4%BE%9D%E8%B5%96/</link>
             <category term="各类教程" scheme="http://example.com/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
-            <category term="Macbook" scheme="http://example.com/tags/Macbook/" />
             <category term="苹果电脑" scheme="http://example.com/tags/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91/" />
+            <category term="Macbook" scheme="http://example.com/tags/Macbook/" />
             <category term="MacOsX" scheme="http://example.com/tags/MacOsX/" />
             <category term="恢复系统" scheme="http://example.com/tags/%E6%81%A2%E5%A4%8D%E7%B3%BB%E7%BB%9F/" />
             <pubDate>Wed, 05 Jun 2024 00:00:00 +0800</pubDate>
@@ -53,8 +53,8 @@
             <title>苹果Mac恢复系统</title>
             <link>http://example.com/2024/05/23/2024-05-23-%E8%8B%B9%E6%9E%9CMac%E6%81%A2%E5%A4%8D%E7%B3%BB%E7%BB%9F/</link>
             <category term="各类教程" scheme="http://example.com/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
-            <category term="Macbook" scheme="http://example.com/tags/Macbook/" />
             <category term="苹果电脑" scheme="http://example.com/tags/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91/" />
+            <category term="Macbook" scheme="http://example.com/tags/Macbook/" />
             <category term="MacOsX" scheme="http://example.com/tags/MacOsX/" />
             <category term="恢复系统" scheme="http://example.com/tags/%E6%81%A2%E5%A4%8D%E7%B3%BB%E7%BB%9F/" />
             <pubDate>Thu, 23 May 2024 00:00:00 +0800</pubDate>
@@ -492,8 +492,8 @@
             <title>Mac安装应用错误异常解决方法</title>
             <link>http://example.com/2023/09/26/2023-09-26-Mac%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8%E9%94%99%E8%AF%AF%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
             <category term="各类教程" scheme="http://example.com/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
-            <category term="苹果电脑" scheme="http://example.com/tags/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91/" />
             <category term="Mac Os X" scheme="http://example.com/tags/Mac-Os-X/" />
+            <category term="苹果电脑" scheme="http://example.com/tags/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91/" />
             <category term="软件安装" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/" />
             <pubDate>Tue, 26 Sep 2023 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;mac安装打开错误异常解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mac安装打开错误异常解决方法&#34;&gt;#&lt;/a&gt; Mac 安装打开错误异常解决方法&lt;/h2&gt;
@@ -779,8 +779,8 @@
             <link>http://example.com/2022/11/10/2022-11-10-Mac%E5%AE%89%E8%A3%85Homebrew/</link>
             <category term="各类教程" scheme="http://example.com/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
             <category term="CMD命令" scheme="http://example.com/tags/CMD%E5%91%BD%E4%BB%A4/" />
-            <category term="Macbook" scheme="http://example.com/tags/Macbook/" />
             <category term="苹果电脑" scheme="http://example.com/tags/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91/" />
+            <category term="Macbook" scheme="http://example.com/tags/Macbook/" />
             <pubDate>Thu, 10 Nov 2022 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;mac安装homebrewgit和nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mac安装homebrewgit和nodejs&#34;&gt;#&lt;/a&gt; Mac 安装 Homebrew，Git 和 node.js&lt;/h2&gt;
 &lt;hr /&gt;

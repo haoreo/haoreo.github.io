@@ -14,8 +14,8 @@
             "content_html": "<h2 id=\"mac终端homebrew安装docutils-meson-pkg-config依赖\"><a class=\"anchor\" href=\"#mac终端homebrew安装docutils-meson-pkg-config依赖\">#</a> Mac 终端 Homebrew 安装 docutils, meson, pkg-config 依赖</h2>\n<hr />\n<h3 id=\"mac终端homebrew环境准备\"><a class=\"anchor\" href=\"#mac终端homebrew环境准备\">#</a> mac 终端 Homebrew 环境准备</h3>\n<p>如果您还没有安装 Homebrew，请先安装 Homebrew。在终端中输入以下命令，如果安装失败请参考我<span class=\"exturl\" data-url=\"aHR0cHM6Ly95dWhvLmhvbWVzLzIwMjIvMTEvMTAvMjAyMi0xMS0xMC1NYWMlRTUlQUUlODklRTglQTMlODVIb21lYnJldy8/aGlnaGxpZ2h0PWg=\">这篇</span>文章:</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>/bin/bash <span class=\"token parameter variable\">-c</span> <span class=\"token string\">\"<span class=\"token variable\"><span class=\"token variable\">$(</span><span class=\"token function\">curl</span> <span class=\"token parameter variable\">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class=\"token variable\">)</span></span>\"</span></pre></td></tr></table></figure><p>更新 Homebrew 的配方和包。在终端中输入以下命令：</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>brew update</pre></td></tr></table></figure><h4 id=\"安装docutils\"><a class=\"anchor\" href=\"#安装docutils\">#</a> 安装 docutils：</h4>\n<ul>\n<li>1. 输入以下代码开始安装</li>\n</ul>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>brew <span class=\"token function\">install</span> docutils</pre></td></tr></table></figure><ul>\n<li>2. 如果你遇到任何关于 Homebrew 的权限问题，可能需要在命令前加上 sudo 来获取管理员权限：</li>\n</ul>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> brew update</pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token function\">sudo</span> brew <span class=\"token function\">install</span> docutils</pre></td></tr></table></figure><h4 id=\"安装meson\"><a class=\"anchor\" href=\"#安装meson\">#</a> 安装 meson。</h4>\n<p>在终端中输入以下命令：</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>brew <span class=\"token function\">install</span> meson</pre></td></tr></table></figure><p>安装完成后，您可以通过在终端中输入来检查 meson 是否正确安装</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>meson <span class=\"token parameter variable\">--version</span></pre></td></tr></table></figure><p>如果安装成功，它将显示 meson 的版本号。</p>\n<h4 id=\"安装pkg-config\"><a class=\"anchor\" href=\"#安装pkg-config\">#</a> 安装 pkg-config</h4>\n<p>安装 pkg-config 的命令如下：</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>brew <span class=\"token function\">install</span> pkg-config</pre></td></tr></table></figure><p>安装完成后，你可以通过运行来验证安装是否成功。</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>pkg-config <span class=\"token parameter variable\">--version</span></pre></td></tr></table></figure><hr />\n<p>实践记录</p>\n",
             "tags": [
                 "各类教程",
-                "Macbook",
                 "苹果电脑",
+                "Macbook",
                 "MacOsX",
                 "恢复系统"
             ]
@@ -28,8 +28,8 @@
             "content_html": "<h2 id=\"苹果mac恢复原厂系统mac-os-x\"><a class=\"anchor\" href=\"#苹果mac恢复原厂系统mac-os-x\">#</a> 苹果 Mac 恢复原厂系统 Mac OS X</h2>\n<hr />\n<h3 id=\"一-开始恢复操作\"><a class=\"anchor\" href=\"#一-开始恢复操作\">#</a> 一、开始恢复操作</h3>\n<h4 id=\"1-将macbook笔记本关机\"><a class=\"anchor\" href=\"#1-将macbook笔记本关机\">#</a> 1. 将 Macbook 笔记本关机</h4>\n<h3 id=\"二-恢复选项\"><a class=\"anchor\" href=\"#二-恢复选项\">#</a> 二、恢复选项</h3>\n<h4 id=\"2根据所需选择以下几项之一操作\"><a class=\"anchor\" href=\"#2根据所需选择以下几项之一操作\">#</a> 2. 根据所需选择以下几项之一操作</h4>\n<ul>\n<li>\n<p>开机时，同时按住 “Command+R” 或长按开关机键，直至出现恢复选项 / OS X 实用工具（恢复出厂并安装至最新系统）</p>\n</li>\n<li>\n<p>开机时，同时按住 “Command+Option+Selft+R”，直至出现恢复选项 / OS X 实用工具（恢复出厂并选择安装最近可支持的系统）</p>\n</li>\n</ul>\n<h4 id=\"3在实用工具界面-点击磁盘工具-抹掉内置磁盘中的数据\"><a class=\"anchor\" href=\"#3在实用工具界面-点击磁盘工具-抹掉内置磁盘中的数据\">#</a> 3. 在实用工具界面。点击磁盘工具。抹掉内置磁盘中的数据</h4>\n<h4 id=\"4抹掉后返回然后点击重新安装macos\"><a class=\"anchor\" href=\"#4抹掉后返回然后点击重新安装macos\">#</a> 4. 抹掉后返回，然后点击 &quot;重新安装 macOS&quot;</h4>\n<h4 id=\"5等待安装完成\"><a class=\"anchor\" href=\"#5等待安装完成\">#</a> 5. 等待安装完成。</h4>\n<hr />\n<p>实践记录</p>\n",
             "tags": [
                 "各类教程",
-                "Macbook",
                 "苹果电脑",
+                "Macbook",
                 "MacOsX",
                 "恢复系统"
             ]
@@ -130,8 +130,8 @@
             "content_html": "<h2 id=\"mac安装打开错误异常解决方法\"><a class=\"anchor\" href=\"#mac安装打开错误异常解决方法\">#</a> Mac 安装打开错误异常解决方法</h2>\n<hr />\n<h3 id=\"安装软件无法打开提示来自身份不明开发者\"><a class=\"anchor\" href=\"#安装软件无法打开提示来自身份不明开发者\">#</a> 安装软件，无法打开提示来自身份不明开发者</h3>\n<p>在 MAC 下安装一些软件时提示  <code>&quot;来自身份不明开发者&quot;</code></p>\n<p>其实这是 MAC 新系统启用了新的安全机制。默认只信任 Mac App Store 下载的软件和拥有开发者 ID 签名的应用程序。 换句话说就是 MAC 系统默认只能安装靠谱渠道（有苹果审核的 Mac App Store）下载的软件或被认可的人开发的软件。</p>\n<p>这当然是为了用户不会稀里糊涂安装流氓软件中招，但没有开发者签名的 “老实软件” 也受影响了，安装就会弹出下图所示警告框：</p>\n<p><code>“打不开 xxx，因为它来自身份不明的开发者”。</code></p>\n<p><img data-src=\"https://s2.loli.net/2024/06/16/mwTriMEC8LUNBIP.jpg\" alt=\"1\" /></p>\n<h4 id=\"出现这个问题的解决方法有2种\"><a class=\"anchor\" href=\"#出现这个问题的解决方法有2种\">#</a> 出现这个问题的解决方法有 2 种：</h4>\n<ul>\n<li>\n<p>NO.1 最简单的方式：按住 Control 后，再次点击软件图标，即可。</p>\n</li>\n<li>\n<p>NO.2 修改系统配置：</p>\n<ol>\n<li>系统偏好设置</li>\n<li>安全性与隐私</li>\n</ol>\n</li>\n</ul>\n<p><img data-src=\"https://s2.loli.net/2024/06/16/FzuLyVbHYP8R5E9.jpg\" alt=\"\" /></p>\n<ol start=\"3\">\n<li>修改为任何来源</li>\n</ol>\n<p><img data-src=\"https://s2.loli.net/2024/06/16/mXUNshHWBJoCOMI.jpg\" alt=\"de\" /></p>\n<h5 id=\"解决没有任何来源选项\"><a class=\"anchor\" href=\"#解决没有任何来源选项\">#</a> 解决没有任何来源选项</h5>\n<p>打开终端，输入以下命令并执行</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> spctl --master-disable</pre></td></tr></table></figure><p>看见个 password 后面还有个钥匙图标后，输入开机解锁密码，回车键确认</p>\n<p>然后再回到安全与隐私里，改为任何来源</p>\n<h3 id=\"打开显示已损坏无法打开-您应该将它移到废纸篓\"><a class=\"anchor\" href=\"#打开显示已损坏无法打开-您应该将它移到废纸篓\">#</a> 打开显示 “已损坏，无法打开。 您应该将它移到废纸篓”</h3>\n<h4 id=\"解决方法一\"><a class=\"anchor\" href=\"#解决方法一\">#</a> 解决方法一</h4>\n<ol>\n<li>打开 “访达”（Finder）进入 “应用程序” 目录，找到该软件图标，将图标拖到刚才的终端窗口里面，会得到如下组合 (如图所示)：</li>\n</ol>\n<blockquote>\n<p>sudo xattr -r -d com.apple.quarantine /Applications/WebStrom.app</p>\n</blockquote>\n<p><img data-src=\"https://s2.loli.net/2024/06/02/yCiXqpUQf9ZHJlm.png\" alt=\"\" title=\"No3\" width=\"100%\" /></p>\n<ol start=\"2\">\n<li>\n<p>终端窗口按回车，输入密码回车即可。</p>\n</li>\n<li>\n<p>接着重新打开安装软件，就可以正常安装了。</p>\n</li>\n</ol>\n<h4 id=\"解决方法二\"><a class=\"anchor\" href=\"#解决方法二\">#</a> 解决方法二</h4>\n<ol>\n<li>打开终端，输入以下命令：（cr 后面输入一个空格）</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>xattr <span class=\"token parameter variable\">-cr</span></pre></td></tr></table></figure><ol start=\"2\">\n<li>将出现已损坏的应用拖入终端中（xattr -cr 的后面），代码样式为</li>\n</ol>\n<blockquote>\n<p>xattr -cr /Applications/imFile.app</p>\n</blockquote>\n<ol start=\"3\">\n<li>再回车就可以正常打开了</li>\n</ol>\n<hr />\n<p>实践记录</p>\n",
             "tags": [
                 "各类教程",
-                "苹果电脑",
                 "Mac Os X",
+                "苹果电脑",
                 "软件安装"
             ]
         },
@@ -167,8 +167,8 @@
             "tags": [
                 "各类教程",
                 "CMD命令",
-                "Macbook",
-                "苹果电脑"
+                "苹果电脑",
+                "Macbook"
             ]
         },
         {

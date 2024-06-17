@@ -1004,43 +1004,43 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;hexo cl&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;网页异常时 &amp;gt; 清除缓存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo algolia&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;生成索引文件｜&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo g&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;更新文件&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo s&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;启动预览服务&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo d&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;部署到 github 仓库&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo server -s&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;静态模式&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo server -p 5000&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;更改端口&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo server -i 192.168.1.1&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;自定义 IP&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;hexo clean&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;网页异常时 &amp;gt; 清除缓存&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1209,9 +1209,9 @@
             <title>CMD命令制作U盘启动</title>
             <link>https://www.yuho.homes/2021-12-10-CMD%E5%91%BD%E4%BB%A4%E5%88%B6%E4%BD%9CU%E7%9B%98%E5%90%AF%E5%8A%A8/</link>
             <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
-            <category term="CMD命令" scheme="https://www.yuho.homes/tags/CMD%E5%91%BD%E4%BB%A4/" />
             <category term="Windows" scheme="https://www.yuho.homes/tags/Windows/" />
             <category term="PC电脑" scheme="https://www.yuho.homes/tags/PC%E7%94%B5%E8%84%91/" />
+            <category term="CMD命令" scheme="https://www.yuho.homes/tags/CMD%E5%91%BD%E4%BB%A4/" />
             <pubDate>Fri, 10 Dec 2021 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;cmd命令制作u盘启动&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cmd命令制作u盘启动&#34;&gt;#&lt;/a&gt; CMD 命令制作 U 盘启动&lt;/h2&gt;
 &lt;hr /&gt;

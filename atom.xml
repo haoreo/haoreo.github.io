@@ -996,43 +996,43 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;hexo cl&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;网页异常时 &amp;gt; 清除缓存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo algolia&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;生成索引文件｜&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo g&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;更新文件&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo s&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;启动预览服务&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo d&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;部署到 github 仓库&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo server -s&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;静态模式&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo server -p 5000&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;更改端口&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;hexo server -i 192.168.1.1&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;自定义 IP&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;hexo clean&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;网页异常时 &amp;gt; 清除缓存&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1260,9 +1260,9 @@
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
-        <category term="CMD命令" scheme="https://www.yuho.homes/tags/CMD%E5%91%BD%E4%BB%A4/" />
         <category term="Windows" scheme="https://www.yuho.homes/tags/Windows/" />
         <category term="PC电脑" scheme="https://www.yuho.homes/tags/PC%E7%94%B5%E8%84%91/" />
+        <category term="CMD命令" scheme="https://www.yuho.homes/tags/CMD%E5%91%BD%E4%BB%A4/" />
         <updated>2021-12-09T16:00:00.000Z</updated>
     </entry>
 </feed>

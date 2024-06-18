@@ -9,11 +9,22 @@
       <name>澜鱼先生</name>
     </author>
     <updated>2024-06-04T16:00:00.000Z</updated>
-    <category term="澜鱼先生" />
     <category term="blog" />
-    <category term="博客" />
-    <category term="导航" />
-    <category term="网站导航" />
+    <category term="web导航" />
+    <category term="澜鱼" />
+    <category term="澜鱼blog" />
+    <category term="澜鱼博客，鱼先生" />
+    <category term="鱼先生blog" />
+    <category term="鱼先生博客" />
+    <category term="澜鱼先生" />
+    <category term="澜鱼先生blog" />
+    <category term="澜鱼先生博客" />
+    <category term="澜鱼导航" />
+    <category term="鱼先生导航" />
+    <category term="澜鱼先生导航" />
+    <category term="澜鱼网站导航" />
+    <category term="鱼先生网站导航" />
+    <category term="澜鱼先生网站导航" />
     <entry>
         <id>https://www.yuho.homes/2024-06-05-Mac%E7%BB%88%E7%AB%AFHomebrew%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E4%BE%9D%E8%B5%96/</id>
         <title>Mac终端Homebrew安装相关依赖</title>

@@ -26,9 +26,9 @@
     <category term="鱼先生网站导航" />
     <category term="澜鱼先生网站导航" />
     <entry>
-        <id>https://www.yuho.homes/2024-06-05-Mac%E7%BB%88%E7%AB%AFHomebrew%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E4%BE%9D%E8%B5%96/</id>
+        <id>https://www.yuho.homes/2024-06-05-Mac%E7%BB%88%E7%AB%AFHomebrew%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E4%BE%9D%E8%B5%96_%E5%89%AF%E6%9C%AC/</id>
         <title>Mac终端Homebrew安装相关依赖</title>
-        <link rel="alternate" href="https://www.yuho.homes/2024-06-05-Mac%E7%BB%88%E7%AB%AFHomebrew%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E4%BE%9D%E8%B5%96/"/>
+        <link rel="alternate" href="https://www.yuho.homes/2024-06-05-Mac%E7%BB%88%E7%AB%AFHomebrew%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E4%BE%9D%E8%B5%96_%E5%89%AF%E6%9C%AC/"/>
         <content type="html">&lt;h2 id=&#34;mac终端homebrew安装docutils-meson-pkg-config依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mac终端homebrew安装docutils-meson-pkg-config依赖&#34;&gt;#&lt;/a&gt; Mac 终端 Homebrew 安装 docutils, meson, pkg-config 依赖&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;mac终端homebrew环境准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mac终端homebrew环境准备&#34;&gt;#&lt;/a&gt; mac 终端 Homebrew 环境准备&lt;/h3&gt;
@@ -48,7 +48,8 @@
 &lt;h4 id=&#34;安装pkg-config&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装pkg-config&#34;&gt;#&lt;/a&gt; 安装 pkg-config&lt;/h4&gt;
 &lt;p&gt;安装 pkg-config 的命令如下：&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;brew &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; pkg-config&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装完成后，你可以通过运行来验证安装是否成功。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pkg-config &lt;span class=&#34;token parameter variable&#34;&gt;--version&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pkg-config &lt;span class=&#34;token parameter variable&#34;&gt;--version&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -78,7 +79,8 @@
 &lt;h4 id=&#34;3在实用工具界面-点击磁盘工具-抹掉内置磁盘中的数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3在实用工具界面-点击磁盘工具-抹掉内置磁盘中的数据&#34;&gt;#&lt;/a&gt; 3. 在实用工具界面。点击磁盘工具。抹掉内置磁盘中的数据&lt;/h4&gt;
 &lt;h4 id=&#34;4抹掉后返回然后点击重新安装macos&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4抹掉后返回然后点击重新安装macos&#34;&gt;#&lt;/a&gt; 4. 抹掉后返回，然后点击 &amp;quot;重新安装 macOS&amp;quot;&lt;/h4&gt;
 &lt;h4 id=&#34;5等待安装完成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5等待安装完成&#34;&gt;#&lt;/a&gt; 5. 等待安装完成。&lt;/h4&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -127,7 +129,8 @@
 &lt;h4 id=&#34;8恢复完成重启&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8恢复完成重启&#34;&gt;#&lt;/a&gt; 8 恢复完成，重启&lt;/h4&gt;
 &lt;h4 id=&#34;5恢复完成一顿操作哎呀一言不合就又恢复到买来时的样子了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5恢复完成一顿操作哎呀一言不合就又恢复到买来时的样子了&#34;&gt;#&lt;/a&gt; 5 恢复完成一顿操作，哎呀，一言不合就又恢复到买来时的样子了&lt;/h4&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/06/16/qjLsBvDwGtAEgxC.jpg&#34; alt=&#34;&#34; title=&#34;No27&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -197,7 +200,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/05/24/7GKMBrmEp69xJ4u.png&#34; alt=&#34;e&#34; title=&#34;No3&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -277,7 +281,8 @@
 &lt;/ol&gt;
 &lt;p&gt;打开终端工具输入并执行如下命令：&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;codesign &lt;span class=&#34;token parameter variable&#34;&gt;--force&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--deep&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--sign&lt;/span&gt; - /Applications/name.app&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;把要签名的软件直接拖入终端，即可生成 app 路径&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -302,7 +307,8 @@
 &lt;h4 id=&#34;逐个导入歌词源js&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#逐个导入歌词源js&#34;&gt;#&lt;/a&gt; 逐个导入歌词源 (.js)&lt;/h4&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/06/16/8YyKl2pQoAVL7Bc.jpg&#34; alt=&#34;&#34; title=&#34;No4&#34; width=&#34;100%&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://s2.loli.net/2024/06/16/HYyhDCRvjKPmZVb.jpg&#34; alt=&#34;&#34; title=&#34;No5&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -615,7 +621,8 @@
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/06/16/pakYj37lL9UD4oX.jpg&#34; alt=&#34;&#34; title=&#34;No26&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;5恢复完成一顿操作哎呀不小心又恢复到买来时的样子了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5恢复完成一顿操作哎呀不小心又恢复到买来时的样子了&#34;&gt;#&lt;/a&gt; 5 恢复完成一顿操作，哎呀，不小心又恢复到买来时的样子了&lt;/h4&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/06/16/qjLsBvDwGtAEgxC.jpg&#34; alt=&#34;&#34; title=&#34;No27&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;网络摘录 Alienware1369 仅支持戴尔 / 外星人 7 代 cpu 之后机型包括 7 代处理器机型&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -689,7 +696,8 @@
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;再回车就可以正常打开了&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -1048,7 +1056,8 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;搞定，完成，收工&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -1144,7 +1153,8 @@
 &lt;p&gt;打开应用设置 &amp;gt;&amp;gt; 数据管理 &amp;gt;&amp;gt; 配置接口源，可以手机扫码远端导入&lt;/p&gt;
 &lt;p&gt;接口地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS16N3g5MDBhLmxpdmU=&#34;&gt;http:// 肥猫.live&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;若接口失效，请&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9qdXdhbmhlemkuY29tL290aGVyL2pzb25saXN0&#34;&gt;点此进入&lt;/span&gt; 查看最新接口。&lt;/p&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />
@@ -1204,7 +1214,8 @@
 &lt;li&gt;在视口内双击以激活模型空间。&lt;/li&gt;
 &lt;li&gt;在视口外双击以激活图纸空间。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="影音设计" scheme="https://www.yuho.homes/categories/%E5%BD%B1%E9%9F%B3%E8%AE%BE%E8%AE%A1/" />
@@ -1267,7 +1278,8 @@
 &lt;p&gt;设置好 bios 就可以进行从 U 盘安装系统了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;如有在操作过程中有问题请及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如有在操作过程中有问题请及时反馈&#34;&gt;#&lt;/a&gt; 如有在操作过程中有问题，请及时反馈！&lt;/h2&gt;
+&lt;p&gt;如有在操作过程中有问题，请及时反馈！&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;实践记录&lt;/p&gt;
 </content>
         <category term="各类教程" scheme="https://www.yuho.homes/categories/%E5%90%84%E7%B1%BB%E6%95%99%E7%A8%8B/" />

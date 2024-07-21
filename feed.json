@@ -7,6 +7,18 @@
     "home_page_url": "https://www.yuho.homes",
     "items": [
         {
+            "id": "https://www.yuho.homes/2024-07-21-Mac%E5%8D%B8%E8%BD%BD%E5%88%A0%E9%99%A4/",
+            "url": "https://www.yuho.homes/2024-07-21-Mac%E5%8D%B8%E8%BD%BD%E5%88%A0%E9%99%A4/",
+            "title": "Mac卸载删除Rosetta2",
+            "date_published": "2024-07-20T16:00:00.000Z",
+            "content_html": "<h2 id=\"mac卸载删除rosetta2\"><a class=\"anchor\" href=\"#mac卸载删除rosetta2\">#</a> Mac 卸载删除 Rosetta2</h2>\n<hr />\n<h3 id=\"爱客新\"><a class=\"anchor\" href=\"#爱客新\">#</a> 爱客新</h3>\n<div class=\"note danger no-icon\">\n<p>从英文技术文稿翻译而来</p>\n</div>\n<h4 id=\"中文翻译实践教程\"><a class=\"anchor\" href=\"#中文翻译实践教程\">#</a> 中文翻译实践教程</h4>\n<ol>\n<li>关闭你的 Mac。</li>\n<li>按住电源按钮，直到出现启动选项。</li>\n<li>单击选项 &gt; 继续。</li>\n<li>选择您的帐户并输入您的密码。</li>\n<li>单击实用程序 &gt; 终端。</li>\n<li>输入以下命令，然后按 Enter 键在 Mac 上禁用 SIP。</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>csrutil disable</pre></td></tr></table></figure><ol start=\"7\">\n<li>输入您的用户名和密码。</li>\n<li>单击苹果标志，然后选择重新启动。</li>\n<li>打开终端。</li>\n<li>输入以下命令，然后按 Enter 键获取需要删除的文件、目录和 LaunchAgents 列表。</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>pkgutil <span class=\"token parameter variable\">--files</span> com.apple.pkg.RosettaUpdateAuto</pre></td></tr></table></figure><ol start=\"11\">\n<li>打开 Finder，然后单击 Go &gt; Go to Folder。</li>\n<li>输入 / Library/Apple/usr/，然后按 Enter 键。</li>\n<li>导航到 / Library/Apple/usr/lib/libRosettaAot.dylib，右键单击它并选择 “移动到废纸篓”。</li>\n<li>输入您的密码，然后按确定。</li>\n<li>导航到 / Library/Apple/usr/libexec 和 / Library/Apple/usr/share/rosetta，也删除这两个文件夹。</li>\n<li>清空你的垃圾。</li>\n<li>重复步骤 1 到 5 步。</li>\n<li>执行以下命令，在 Mac 上重新启用 SIP。</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>csrutil <span class=\"token builtin class-name\">enable</span></pre></td></tr></table></figure><h4 id=\"以下是英文原版\"><a class=\"anchor\" href=\"#以下是英文原版\">#</a> 以下是英文原版：</h4>\n<p>If you need to uninstall Rosetta 2, follow these steps:</p>\n<ol>\n<li>\n<p>Shut down your Mac.</p>\n</li>\n<li>\n<p>Press and hold the power button until the startup options appear.</p>\n</li>\n<li>\n<p>Click Options &gt; Continue.</p>\n</li>\n<li>\n<p>Select your account and enter your password.</p>\n</li>\n<li>\n<p>Click Utilities &gt; Terminal.</p>\n</li>\n<li>\n<p>Copy and paste the command below, and press Enter to disable SIP on your Mac.</p>\n</li>\n<li>\n<p>csrutil disable</p>\n</li>\n<li>\n<p>Type in your username and password.</p>\n</li>\n<li>\n<p>Click the Apple logo and choose Restart.</p>\n</li>\n<li>\n<p>Open Terminal from Launchpad &gt; Other.</p>\n</li>\n<li>\n<p>Copy and paste the command below, and press Enter to obtain a list of files, directories, and LaunchAgents you need to delete.</p>\n</li>\n<li>\n<p>pkgutil --files com.apple.pkg.RosettaUpdateAuto</p>\n</li>\n<li>\n<p>Open Finder and click Go &gt; Go to Folder.</p>\n</li>\n<li>\n<p>Input /Library/Apple/usr/ and hit Enter.</p>\n</li>\n<li>\n<p>Navigate to /Library/Apple/usr/lib/libRosettaAot.dylib, right-click on it and choose Move to Trash.</p>\n</li>\n<li>\n<p>Enter your password and press OK.</p>\n</li>\n<li>\n<p>Navigate to /Library/Apple/usr/libexec and /Library/Apple/usr/share/rosetta, delete these two folders as well.</p>\n</li>\n<li>\n<p>Empty your Trash.</p>\n</li>\n<li>\n<p>Repeat steps 1 to 5.</p>\n</li>\n<li>\n<p>Execute the command below to re-enable SIP on Mac.</p>\n</li>\n<li>\n<p>csrutil enable</p>\n</li>\n</ol>\n<p>如有在操作过程中有问题，请及时反馈！</p>\n<hr />\n<p>实践记录</p>\n",
+            "tags": [
+                "各类教程",
+                "MacOsX",
+                "苹果电脑"
+            ]
+        },
+        {
             "id": "https://www.yuho.homes/2024-07-17-Mac%E5%AE%89%E8%A3%85Parallels%20Desktop%201819/",
             "url": "https://www.yuho.homes/2024-07-17-Mac%E5%AE%89%E8%A3%85Parallels%20Desktop%201819/",
             "title": "Mac安装Parallels Desktop 1819",
@@ -245,17 +257,6 @@
                 "各类教程",
                 "安卓Android",
                 "智能电视"
-            ]
-        },
-        {
-            "id": "https://www.yuho.homes/2022-05-24-%E7%9C%8B%E7%9C%8B%E9%AB%98%E6%89%8B%E8%A7%A3%E8%AF%B4%E7%A2%B0%E7%93%B7%E7%A2%B0%E5%95%A5%E8%BD%A6/",
-            "url": "https://www.yuho.homes/2022-05-24-%E7%9C%8B%E7%9C%8B%E9%AB%98%E6%89%8B%E8%A7%A3%E8%AF%B4%E7%A2%B0%E7%93%B7%E7%A2%B0%E5%95%A5%E8%BD%A6/",
-            "title": "看看高手解说碰瓷碰啥车",
-            "date_published": "2022-05-23T16:00:00.000Z",
-            "content_html": "<h2 id=\"碰瓷不碰豪车\"><a class=\"anchor\" href=\"#碰瓷不碰豪车\">#</a> 碰瓷不碰豪车？</h2>\n<hr />\n<p>你碰瓷了一辆揽胜，车上下来的社会大哥当场就把你打住院了，医药费自己掏</p>\n<p>你碰瓷了一辆霸道，车上下来个拿着工兵铲，戴着大金链子，胳膊上左青龙右白虎，脚蹬小布鞋的光头哥也把你打住院了，医药费自己掏</p>\n<p>你碰瓷了一辆 A6，车上的领导一个电话叫来派出所民警，你虽然没住院，但是 A6 掉漆的钱你得掏了，不然就按敲诈勒索未遂拘留十五天</p>\n<p>你碰瓷了一辆 S400，车主一个电话叫来了上次打你的揽胜哥，你又住院了，医药费自己掏</p>\n<p>你碰瓷了一辆沃尔沃 S80，车上下来个戴眼镜的律师，一张嘴就是五六十条法律条文能把你送进监狱，把初中肄业的你说懵了以后他开车走了，你还在原地独自庆幸，亏了没讹钱，不然死定了</p>\n<p>你碰瓷了一辆老款凌志 460，下来个六七十的老头，一下车心脏病就犯了，你不仅没要到钱，还让这老头给讹了一笔医药费，不给钱老头家里人不让你走，还找了上次那个开沃尔沃 S80 的律师拿着行车记录仪的视频威胁你要报警或者去法院起诉你</p>\n<p>你碰瓷了一辆七系，车上下来个小年轻，你一看挺瘦小自己能打过，结果人家是上次 A6 上坐着的领导的儿子，你又掏钱给补了车漆</p>\n<p>你碰瓷了一辆不算豪车的 MINI，下来个会所嫩模，嫩模一发嗲你就酥了，然后一眨眼的功夫嫩模把上次打你的霸道哥叫来了，你又住院了，医药费自己掏</p>\n<p>终于你碰瓷碰到了一辆朗逸，车主一下来就哆哩哆嗦的又是给你递烟又是给你道歉又是各种给你诉苦求放过求可怜赚钱养家不容易之类的，你心想，老子拿着绳命在这里碰瓷赚钱养家，老子容易吗！少废话五千块拿过来不然你别想走！</p>\n<p>当你美滋滋的数着朗逸车主给你的几千块的时候，你暗自告诉自己，以后二十万以上的车不碰，越有钱的人越他妈抠，路子还广，他们比我更会讹钱！</p>\n<p>然后你喝半斤二锅头回家把考试不及格的儿子打一顿，兔崽子以后要好好读书，咱也买豪车，碰瓷的都不敢惹！</p>\n<hr />\n<p>网络摘录大白胖</p>\n",
-            "tags": [
-                "趣味杂谈",
-                "高赞回答"
             ]
         }
     ]

@@ -2,29 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yuho.homes</id>
     <title>Blog</title>
-    <subtitle>是非的标准是相对的，世人各有计较；所处的位置不同，看法也不相同</subtitle>
+    <subtitle>是非的标准是相对的，万物各有计较；所处的位置不同，看法也不相同</subtitle>
     <icon>https://www.yuho.homes/images/favicon.ico</icon>
     <link href="https://www.yuho.homes" />
     <author>
-      <name>澜鱼</name>
+      <name>MoDao Hanxing</name>
     </author>
     <updated>2024-07-20T16:00:00.000Z</updated>
     <category term="blog" />
-    <category term="web导航" />
-    <category term="澜鱼" />
-    <category term="澜鱼blog" />
-    <category term="澜鱼博客，鱼先生" />
-    <category term="鱼先生blog" />
-    <category term="鱼先生博客" />
-    <category term="澜鱼先生" />
-    <category term="澜鱼先生blog" />
-    <category term="澜鱼先生博客" />
-    <category term="澜鱼导航" />
-    <category term="鱼先生导航" />
-    <category term="澜鱼先生导航" />
-    <category term="澜鱼网站导航" />
-    <category term="鱼先生网站导航" />
-    <category term="澜鱼先生网站导航" />
+    <category term="博客" />
+    <category term="网页导航" />
+    <category term="默道寒星blog" />
+    <category term="默道寒星博客" />
+    <category term="默道寒星" />
+    <category term="网址导航" />
+    <category term="网站导航" />
     <entry>
         <id>https://www.yuho.homes/2024-07-21-Mac%E5%8D%B8%E8%BD%BD%E5%88%A0%E9%99%A4/</id>
         <title>Mac卸载删除Rosetta2</title>
